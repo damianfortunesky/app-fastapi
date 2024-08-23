@@ -1,0 +1,39 @@
+# FastAPI y herramientas relacionadas
+fastapi
+uvicorn[standard]  # Servidor ASGI para FastAPI
+
+# Conexión a SQL Server
+pyodbc  # Controlador ODBC para conectar a SQL Server
+sqlalchemy  # ORM para manejar la base de datos
+pydantic  # Validación de datos
+databases  # Manejo de bases de datos asíncrono
+
+# Motor de plantillas
+jinja2  # Para renderizar plantillas HTML
+
+# Seguridad
+passlib[bcrypt]  # Para manejar hashing de contraseñas
+python-jose[cryptography]  # Para manejar JWTs
+python-dotenv  # Para manejar variables de entorno desde un archivo .env
+
+# Migraciones de base de datos
+alembic  # Herramienta de migración para SQLAlchemy
+
+# Herramientas para desarrollo
+aiofiles  # Para manejo de archivos asíncrono, útil para servir archivos estáticos
+httpx  # Cliente HTTP para hacer peticiones asíncronas en las pruebas
+pytest  # Framework de testing
+pytest-asyncio  # Para escribir tests asíncronos
+pytest-cov  # Para medir la cobertura de los tests
+
+# Herramientas de CORS (Cross-Origin Resource Sharing)
+fastapi-cors  # Para manejar CORS si el frontend se sirve desde otro dominio
+
+# Herramientas opcionales para el frontend
+starlette-staticfiles  # Para servir archivos estáticos (CSS, JS, imágenes)
+
+# Monitorización y rendimiento
+prometheus-fastapi-instrumentator  # Para monitorizar el rendimiento de la aplicación
+
+# Logging
+loguru  # Librería para logging avanzado
